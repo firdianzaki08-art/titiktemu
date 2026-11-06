@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Titik Temu Studio</title>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap">
+<style>
+/* Layout: one readable column, two documents (Terms, Privacy) reachable by #terms and #privacy */
+:root{--bg:#F4F6F5;--paper:#FFFFFF;--fg:#15211E;--muted:#55635F;--line:#DBE2DF;--brand:#0A5546;--gold:#C98E00;
+  --f:"Ubuntu","Segoe UI",Roboto,Arial,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0E1513;--paper:#151F1C;--fg:#E4EBE8;--muted:#9DADA7;--line:#28352F;--brand:#46AE91;--gold:#F2B33D;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0E1513;--paper:#151F1C;--fg:#E4EBE8;--muted:#9DADA7;--line:#28352F;--brand:#46AE91;--gold:#F2B33D;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--f);font-size:16px;line-height:1.65;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:720px;margin:0 auto;padding-block:32px 64px;display:flex;flex-direction:column;gap:24px}
+header{display:flex;align-items:center;gap:14px}
+header b{font-size:20px}
+header span{display:block;color:var(--muted);font-size:14px}
+nav{display:flex;gap:10px;flex-wrap:wrap}
+nav a{color:var(--brand);font-weight:700;text-decoration:none;border:1.5px solid var(--brand);border-radius:99px;padding:6px 14px;font-size:14px}
+nav a:hover,nav a:focus-visible{background:var(--brand);color:var(--paper)}
+article{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:28px max(20px,4vw);scroll-margin-top:16px}
+h1{font-size:26px;margin:0 0 4px;text-wrap:balance}
+.date{color:var(--muted);font-size:14px;margin:0 0 18px}
+h2{font-size:17px;margin:22px 0 6px;text-wrap:balance}
+p,li{max-width:65ch}
+ul{padding-left:20px;margin:6px 0}
+code{font-size:14px;background:var(--bg);padding:1px 6px;border-radius:5px;word-break:break-all}
+a{color:var(--brand)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+</style>
+<style>body{margin:0}</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+    <svg width="44" height="44" viewBox="0 0 200 200" aria-hidden="true"><rect width="200" height="200" rx="100" fill="#0A5546"/><path d="M44 128 L100 72 L156 128" fill="none" stroke="#fff" stroke-width="18"/><path d="M72 100 L100 128 L128 100" fill="none" stroke="#fff" stroke-width="18"/><path d="M100 90 L110 100 L100 110 L90 100 Z" fill="#FDB515"/></svg>
+    <div><b>Titik Temu Studio</b><span>Personal content tool for the Titik Temu TikTok account</span></div>
+  </header>
+<nav aria-label="Pages"><a href="./">Home</a><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a></nav>
+<article>
+<h1>Titik Temu Studio</h1>
+<p class="date">Personal tool · Jakarta, Indonesia</p>
+<p>Titik Temu Studio is a private, single-user tool for the TikTok account Titik Temu. It edits short Islamic reminder clips into vertical videos with subtitles, background music, and source credit, then sends the finished video to the owner's own TikTok drafts.</p>
+<p>The tool is not offered to the public and has no sign-up.</p>
+<p><a href="terms.html">Terms of Service</a> · <a href="privacy.html">Privacy Policy</a></p>
+</article>
+</div>
+</body>
+</html>
